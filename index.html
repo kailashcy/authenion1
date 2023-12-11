@@ -1,0 +1,2360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Authenion - Help Center</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/authenion-box-hd.png" rel="icon">
+  <link href="assets/logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: authenion - v2.5.0
+  * Template URL: https://bootstrapmade.com/authenion-bootstrap-admin-html-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/authenion-box-hd.png" alt="" class="col-logo-top">
+        <img src="assets/img/authenion-logo-text.png" style="width:55%;" alt="" class="col-logo-top">
+        
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+    <div class="search-bar">
+      <form class="search-form d-flex align-items-center" method="POST" action="#">
+        <input type="text" name="query" placeholder="Search" title="Enter search keyword">
+        <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+      </form>
+    </div>
+	<!-- End Search Bar -->
+
+	<!-- <div class="replace_top_nav">
+		<form class="search-form d-flex align-items-center" method="POST" action="#"></form>
+		<div class="navbar" data-mc-conditions="Primary.live-site-only">
+		   
+			<div class="dropdown" data-test="menuBarCategory" id="knowledgebaseMenu">
+				<a href="https://support.likemindsconsulting.com/support/solutions/48000454008" target="_blank" data-test="menuBarLink">Knowledge Base</a>
+			</div>
+			
+			<div class="dropdown" data-test="menuBarCategory" id="communityMenu">
+				
+				<a href="https://support.likemindsconsulting.com/support/discussions" target="_blank" data-test="menuBarLink">Community</a>	
+			</div>
+			
+		  
+			<div class="dropdown" data-test="menuBarCategory" id="trainingMenu">
+				<a href="https://support.likemindsconsulting.com/support/home" target="_blank" data-test="menuBarLink">&nbsp;Support</a>
+			</div>
+		
+		</div>
+	</form>
+	</div> -->
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+	      
+	      
+	          <div class="nav">
+		           <a class="bi bi-circle"></a>
+		      </div>
+	      <div style="font-size: 15px;margin-right: 47px;" class= "bi bi-circle" id="tables-nav">
+		Configuration Guide
+	     </div>
+
+     </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+     
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="#ReleaseNotes">
+          <!--<i class="bi bi-grid"></i>-->
+          <span>Release Notes</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+     
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
+          <!--<i class="bi bi-journal-text"></i>--><span>Getting Started&nbsp;</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+		
+          <li>
+            <a href="#Introduction" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Introduction</span>
+            </a>
+          </li>
+          <li>
+            <a href="#Enterprise Deployement Model" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Enterprise Deployment Model</span>
+            </a>
+          </li>
+          <li>
+            <a href="#What can I do with Authenion" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>What can I do with Authenion?</span>
+            </a>
+          </li>
+          <li>
+            <a href="#How does Authenion work" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>How does Authenion work?</span>
+            </a>
+          </li> 
+          <li>
+            <a href="#What can I Configure with Authenion" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>What can I Configure with Authenion?</span>
+            </a>
+          </li>
+          <!--<li>
+            <a href="forms-validation.html">
+              <i class="bi bi-circle"></i><span></span>
+            </a>
+          </li>-->
+        </ul>
+      </li><!-- End Forms Nav -->
+	  
+	   <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#SystemRequirements">
+          <!--<i class="bi bi-menu-button-wide"></i>--><span>System Requirements&nbsp;</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+         <li>
+          <a href="#SupportedOS" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Supported Operating Systems </span>
+            </a>
+          </li>
+          <li>
+            <a href="#LinuxUserrequirements" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Linux User requirements in the Authenion Server</span>
+            </a>
+          </li>
+          <li>
+            <a href="#SupportedJavaenvironment" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Supported Java environment </span>
+            </a>
+          </li>
+          <li>
+            <a href="#MinimumHR" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Minimum Hardware requirements </span>
+            </a>
+          </li>
+          <li>
+            <a href="#RecommendedHR" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Recommended Hardware requirements</span>
+            </a>
+          </li>
+          <li>
+            <a href="#PortRequirements" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Default Port requirements </span>
+            </a>
+          </li>
+          
+        </ul>
+      </li>
+	  <!-- End Components Nav -->
+
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+          <!--<i class="bi bi-layout-text-window-reverse"></i>--><span>Installation&nbsp;</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="tables-nav" class="nav-content collapse" data-bs-parent="#sidebar-nav">
+         <li>
+            <a href="#pre-reqs section" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Pre-requisites</span>
+            </a>
+          </li>
+          <li>
+            <a href="#install-authenion section" class="nav-link-sub collapsed">
+		    <!--<i class="bi bi-circle"></i>--><span>Install Authenion</span>
+            </a>
+          </li> 
+           <li>
+            <a href="#setup section" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i--><span>Setup Authenion</span>
+            </a>
+          </li>
+          <li>
+            <a href="#start-stop section" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i--><span>Start & Stop Services</span>
+            </a>
+          </li> 
+           <li>
+            <a href="#health-check section" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Authenion Health-check</span>
+            </a>
+          </li>
+          <li>
+            <a href="#idp-cert section" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Install Identiy Provider's Certificate into Authenion Trust Store</span>
+            </a>
+          </li> 
+           <li>
+            <a href="#ssl-cert section" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Install SSL Certificate for Authenion</span>
+            </a>
+          </li>
+          
+        </ul>
+      </li><!-- End Tables Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#charts-nav" data-bs-toggle="collapse" href="#">
+          <!--<i class="bi bi-bar-chart"></i>--><span>Console Navigation & Configurations&nbsp;</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="charts-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="#Applications / Dashboard page" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Dashboard / Applications</span>
+            </a>
+          </li>
+         <li>
+            <a href="#Getting config-data into the UI" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Import - Getting config-data into the UI</span>
+            </a>
+          </li>
+          <li>
+            <a href="#OIDC Configuration" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Identity Provider Configuration</span>
+            </a>
+          </li>
+            </a>
+          </li>
+          <li>
+            <a href="#Sidebar" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Sidebar</span>
+            </a>
+          </li>
+       <li>
+            <a href="#Applications" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Applications</span>
+            </a>
+          </li>
+         <li>
+            <a href="#Virtual Servers" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Virtual Servers</span>
+            </a>
+          </li>
+          <li>
+            <a href="#Application Hosts" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Application Hosts</span>
+            </a>
+          </li>
+            </a>
+          </li>
+          <li>
+            <a href="#Header Mapping" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Header Mappings</span>
+            </a>
+          </li>
+   <li>
+            <a href="#Resources" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Resources</span>
+            </a>
+          </li>
+         <li>
+            <a href="#Authenion Status" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Authenion Status</span>
+            </a>
+          </li>
+          <li>
+            <a href="#Export" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Export</span>
+            </a>
+          </li>
+            </a>
+          </li>
+          <li>
+            <a href="#Sync" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Sync</span>
+            </a>
+          </li>
+        </ul>
+      </li><!-- End Charts Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#icons-nav" data-bs-toggle="collapse" href="#">
+          <!--<i class="bi bi-gem"></i>--><span>Connect with your Identity Provider&nbsp;</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="icons-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="#PingFederate as the Token Provider" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle">--></i><span>PingFederate as the Token Provider</span>
+            </a>
+          </li>
+          <li>
+            <a href="#Microsoft Azure Active Directory as the Token Provider" class="nav-link-sub collapsed">
+              <!--<i class="bi bi-circle"></i>--><span>Microsoft Azure Active Directory as the Token Provider</span>
+            </a>
+          </li>
+          
+        </ul>
+      </li><!-- End Icons Nav -->
+
+      <li class="nav-heading"></li>
+
+      
+
+      
+      </li><!-- End Blank Page Nav -->
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+  
+		
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+     <p>Authenion Documentation</p>
+
+    </div><!-- End Page Title -->
+
+	<!----->
+
+	<div class="body-main" data-test="bodyContent">
+		
+	<!-- Tiles -->
+		
+		<div class="tiles">
+			<div>
+				<a href="#ReleaseNotes">
+					<p class="tile-title" data-test="tile">
+
+						<b>Release Notes</b>
+
+					</p>
+					<p class="tile-subtitle">Release summary with Features & Enhancements and bug fixes.</p></a>
+					
+			 </div>
+			<div>
+				<a href="#GettingStarted">
+				<p class="tile-title" data-test="tile">
+					<b>Getting Started</b>
+			   </p>
+				<p class="tile-subtitle">
+					Authenion platform and it's standards to protect your Enterprise Applications
+				</p>
+			</a>
+			  </div>
+			 <div>
+				
+               <a href="#Installation">
+				<p class="tile-title" data-test="tile">
+					<b>Installation</b>
+				</p>
+				<p class="tile-subtitle">Installation & Configuration instructions for Authenion
+				</p>
+				</a>
+			 </div>
+		</div>
+		
+		<div class="tiles">
+			<div>
+				
+               <a href="#Console Navigation & Configurations">
+				<p class="tile-title" data-test="tile">
+					<b>Console Navigation & Configurations</b>
+				</p>
+				<p class="tile-subtitle">UI Navigation and steps for accessing & configuring Authenion</p>
+			</a>
+			</div>
+			
+			<div>
+				<a href="#Connect with your Identity Provider">
+				<p class="tile-title" data-test="tile">
+					<b>Configure your Identity Provider</b> 
+				</p>
+				<p class="tile-subtitle">Integration requirements to connect with your Enterprise Identity Provider.</p>
+			</a>
+			</div>
+			<div>
+				<p class="tile-title" data-test="tile">
+				
+					<b>Application Integration</b>
+				
+				</p>
+				<p class="tile-subtitle">On-boarding your Applications into Authenion for SSO</p>
+			</div>
+		</div>
+		<br />
+	</div>
+
+
+<!---->
+	
+    <section class="section dashboard">
+        <!-- Left side columns -->
+        <div class="col-lg-8">
+			<div class="row">
+				<div>
+					<!-- ### RELEASE NOTES ### -->
+					<a style="padding:35px" name="ReleaseNotes"></a>
+					<h4 style="font-family: sans-serif; font-size: 26px; font-weight: 600; color: #00297A">Release Notes</h4>
+					
+					<p class="col-sub-headings">Release: 2023</p>
+					<p class="col-para">Deployment: April 2023</p>
+					<p class="col-para">Software Download: <a href="https://support.likemindsconsulting.com" target="_blank">LikeMinds Helpdesk portal</a></p>
+					<p class="col-sub-headings">Release Summary</p>
+					<p class="col-para">Authenion-2.0 version is now generally available. Authenion-2.0 release has new features, bug fixes, security enhancements and updated documentation.</p>
+					<p class="col-sub-headings">Features & Enhancements</p>
+					<ul style="margin-left:30px;" class="col-para">
+						<li><p class="col-para">Admins can now configure Authenion through the Administrative console. Admins can onboard/manage target Applications, OIDC Providers, Product License and lot more through the administrative console.</p></li>
+						<li><p class="col-para">Authenion administrative console is hosted by LikeMinds and is available at <a href="https://launch.authenion.com/" target="_blank">Admin UI.</a></p></li>
+						<li><p class="col-para">The logging framework has been changed to Apache Log4j2 from Logback. Audit logging is now available for recording the event occurrence, type, time and responsible user or service.</p></li>
+						<li><p class="col-para">Authenion Cluster is available and it provides high-availability & scalability. Authenion has inbuilt load balancer for its backend connections. However, Authenion still requires a network load balancer to automatically balance traffic in the cluster.</p></li>
+						<li><p class="col-para">Authenion instance status can be monitored through the console. A health-check endpoint is also available to monitor its status through any monitoring tools.</p></li>
+					</ul>
+					<p class="col-sub-headings">Fixes</p>
+					<ul style="margin-left:30px;" class="col-para">
+						<li><p class="col-para">AQ4-2022-1001: Multiple occurrences of SSO transaction in authenion-engine logs.</a></p></li>
+						<li><p class="col-para">AQ1-2023-1001: Authenion engine log recycling and log file size limit to 10MB.</p></li>
+						<li><p class="col-para">AQ1-2023-1002: REST API calls authorization for Authenion agent.</p></li>
+						<li><p class="col-para">AQ1-2023-1003: Cookie is configured with SameSite attribute.</p></li>
+						<li><p class="col-para">AQ2-2023-1006: Multiple sync requests to the same Agent APIs.</p></li>
+						<li><p class="col-para">AQ2-2023-1008: Header Mapping page shows blank screen when there is no data present in OIDC claims.</p></li>
+						<li><p class="col-para">AQ2-2023-1009: Enabled Security Headers to Prevent Vulnerabilities - HTTP Response Headers to modify web browsers behavior to avoid security vulnerabilities.</p></li>
+					</ul>
+
+					<br>
+				</div>
+
+				
+			
+					<!-- <ul class="col-para">
+						<a style="padding: 38px" name="Supported Operating Systems"></a>
+						<li><p class="col-sub-headings-sub"><b>Supported Operating Systems</b></p></li>
+						<p class="col-para">
+							&emsp;▪	Red Hat Enterprise Linux 7 & above<br>
+							&emsp;▪	CentOS 7 & above<br>
+							&emsp;▪	Oracle Enterprise Linux 7 & above
+						</p>
+						<a style="padding: 38px" name="Linux User requirements"></a>
+						<li><p class="col-sub-headings-sub"><b>Linux User requirements in the Authenion Server</b></p></li>
+						<p class="col-para">
+							&emsp;▪	Create a Linux user in the name of ‘appuser’ to execute Authenion scripts.<br>
+							&emsp;▪	The 'appuser' should have Read/Write privileges to the Authenion deployment package.<br>
+							&emsp;▪ Authenion should be installed in the ‘/home/appuser’ directory.
+						</p>
+						<a style="padding: 38px" name="Supported Java environment"></a>
+						<li><p class="col-sub-headings-sub"><b>Supported Java environment</b></p></li>
+						<p class="col-para">
+							&emsp;▪	OpenJDK 11<br>
+							&emsp;▪	Oracle Java SE Development Kit 11 LTS / Oracle Java SE Runtime Environment (Server JRE) 8
+						</p>
+						<a style="padding: 38px" name="Minimum Hardware requirements"></a>
+						<li><p class="col-sub-headings-sub"><b>Minimum Hardware requirements</b></p></li>
+						<p class="col-para">
+							&emsp;▪	2 CPU/Cores recommended<br>
+							&emsp;▪	2 GB of RAM<br>
+							&emsp;▪	15 GB available space
+						</p>
+						<a style="padding: 38px" name="Recommended Hardware requirements"></a>
+						<li><p class="col-sub-headings-sub"><b>Recommended Hardware requirements</b></p></li>
+						<p class="col-para">
+							&emsp;▪	4 CPU/Cores recommended<br>
+							&emsp;▪	4 GB of RAM<br>
+							&emsp;▪	30 GB available space
+						</p>
+						<a style="padding: 38px" name="Port Requirements"></a>
+						<li><p class="col-sub-headings-sub"><b>Port requirements</b></p></li>
+						<p class="col-para">
+							&emsp;▪	Authenion Sync&emsp;&emsp;-&emsp;HTTPS, TCP - 8090<br>
+							&emsp;▪	Authenion Engine&emsp;&nbsp;-&emsp;HTTPS, TCP - 3000<br>
+						</p>
+						<br>
+					</ul> -->
+				</div>
+	
+				<!-- ### GETTING STARTED ### -->
+			<!--<div style="width:800px; background-color:lightgrey;">-->
+			<div>
+				<a style="padding:32px" name="GettingStarted"></a>
+				<h4 style="font-family: sans-serif; font-size: 26px; font-weight: 600; color: #00297A">Getting Started</h4>
+				<p class="col-para">This guide provides information about getting started with Authenion to deploy a secure and scalable platform to enable single sign-on (SSO) to your Enterprise applications based on the security and industry standards.</p>
+				<a style="padding:32px" name="Introduction"></a>
+				<p class="col-sub-headings">1. Introduction</p>
+				<p class="col-para">The Authenion product from Like Minds is aimed towards delivering a secure Single Sign-On (SSO) experience for Enterprise applications from Oracle, IBM, SAP and other custom applications (java, php, .net, etc.,) that supports HTTP headers as their authentication mechanism. Authenion integrates with standard OpenID Connect providers in the market for authentication related events.</p>
+				<p class="col-para">Authenion links with market-standard OpenID Connect providers such as PingFederate, PingOne, Azure, Okta, Oracle IDCS and it connects with applications to securely send SSO-related information to the applications. Authenion enables secure access to your Enterprise applications and custom applications either on-premises or cloud. Authenion complements any other common industry standard token provider via OAuth2.0 & OpenID Connect-2.0 protocols.</p>
+				<!-- <img src="assets/img/authenion-intro.png" alt="" class="col-images-intro" /> -->
+
+				<!-- Image with onclick event -->
+<img src="assets/img/authenion-intro.png" alt="" style="width:60%;height:40%;cursor:pointer" onclick="openModal('modalContainer25', 'modalImage25')" class="col-images-intro" />
+
+<!-- Modal container -->
+<div id="modalContainer25" class="modal-container" onclick="closeModal('modalContainer25')">
+    <img id="modalImage25" class="modal-image" src="assets/img/authenion-intro.png" alt="">
+</div>
+<br>
+				<a style="padding:32px" name="Enterprise Deployement Model"></a>
+				<p class="col-sub-headings">2. Enterprise Deployment Model</p>
+				<p class="col-para">Authenion & your Identity Provider enable your Enterprise/Custom applications and its users experience secure Single Sign-On by enforcing authentication standards to the applications. Together, they help achieve a seamless Single Sign-On feature to the protected applications.</p>
+				<p class="col-para">Authenion supports a Gateway architecture for its protected applications. In this model, the traffic is initially directed to Authenion. Authenion grants or denies access based on the application resources protection type.</p>
+				<!-- <ul class="col-para"> -->
+				<ul style="margin-left:30px;" class="col-para">
+					<li><p class="col-para">This deployment model can be set up quickly without disrupting the applications. Authenion will be installed on separate servers from the application web servers.</p></li>
+					<li><p class="col-para">With the fewer components architecture, it is easy to manage. All transactions are logged, and makes it easier to view any specific events.</p></li>
+				</ul>
+				<!-- <img src="assets/img/deploymentmodel.png" alt="" class="col-images-intro"> -->
+<!-- Image with onclick event -->
+<img src="assets/img/deploymentmodel.png" alt="" style="width:60%;height:40%;cursor:pointer" onclick="openModal('modalContainer26', 'modalImage26')" class="col-images-intro" />
+
+<!-- Modal container -->
+<div id="modalContainer26" class="modal-container" onclick="closeModal('modalContainer26')">
+    <img id="modalImage26" class="modal-image" src="assets/img/deploymentmodel.png" alt="">
+</div>
+<br>
+				<a style="padding:32px" name="What can I do with Authenion"></a>
+				<p class="col-sub-headings">3. What can I do with Authenion?</p>
+				<!--<p class="col-para">Authenion is a light-weight product that allows you to enable a secure Single Sign-On solution for your Enterprise applications.</p>-->
+				<p class="col-para">The main functionalities are:</p>
+				<!-- <ul class="col-para"> -->
+				<ul style="margin-left:30px;" class="col-para">
+					<li><p class="col-para" style="background-color:#f5f5f6">Use Authenion to protect your Enterprise applications.</p></li>
+					<li><p class="col-para" style="background-color:#f5f5f6">Connect Authenion with external OpenID Connect providers such as Microsoft Azure AD, PingFederate, PingOne, Oracle IDCS, Okta, etc., for authentication.</p></li>
+					<li><p class="col-para" style="background-color:#f5f5f6">You can manage user sessions for the protected applications and use OAuth scopes to retrieve user attributes from your Identity Provider & send it to protected applications.</p></li>
+				</ul>
+
+
+				<a style="padding:32px" name="How does Authenion work"></a>
+				<p class="col-sub-headings">4. How does Authenion work?</p>
+				<p class="col-para">Authenion acts as the gateway to your Enterprise & custom applications and capture user requests & delegate it to your Identity Provider (IdP) for authentication.</p>
+
+				<p class="col-sub-headings-sub"><b>Session Initiation</b></p>
+				<!-- <ul class="col-para"> -->
+				<ul style="margin-left:30px;" class="col-para">
+					<li><p class="col-para" style="background-color:#f5f5f6">Using advanced & secured integration standards, Authenion securely connects with your Identity Provider using OAuth/OIDC protocols. This allows Authenion protected application requests to be delegated to your centralized Identity Provider in your organization.</p></li>
+					<li><p class="col-para" style="background-color:#f5f5f6">The Identity Provider will be responsible for challenging the user requests with strong authentication schemes. The Identity Provider will also be responsible for collecting the user attributes and send it to Authenion through tokens for further processing such as session establishment & granting user-access. </p></li>
+				</ul>
+				<!--<img src="assets/img/sessioninitiation.png" alt="" class="col-images-sessionmgmt"><br>-->
+
+				<p class="col-sub-headings-sub"><b>Processing Steps</b></p>
+				<ol class="col-para">
+					<li><p class="col-para">&nbsp;User request access for the Application.</p></li>
+					<li><p class="col-para">&nbsp;Authenion checks for the user session, and it redirects the user’s request to IdP for authentication.</p></li>
+					<li><p class="col-para">&nbsp;IdP authenticates the user using the adapters and against a data store configured to it.</p></li>
+					<li><p class="col-para">&nbsp;IdP retrieves the necessary attributes from its configured data store and sends it to Authenion for further processing.</p></li>
+					<li><p class="col-para">&nbsp;Authenion will receive the authenticated user’s attributes and parse the attributes into HTTP-Headers and send it to the target application.</p></li>
+					<li><p class="col-para">&nbsp;Applications will retrieve & validate the HTTP-Headers from Authenion and grant access to users based on their roles and responsibilities.</p></li>
+				</ol>
+
+
+				<a style="padding:32px" name="What can I Configure with Authenion"></a>
+				<p class="col-sub-headings">5. What can I Configure with Authenion?</p>
+				<p class="col-para">Authenion includes a wide range of configuration features from its user interface (administrative console). The following are the configuration we can perform in Authenion admin console.</p>
+
+				<!-- <div class="div-table">
+		<div class="div-table-row">
+			<div class="div-table-col1">Applications</div>
+			<div class="div-table-col2">Application you are protecting with Authenion</div>
+		</div>
+		<div class="div-table-row">
+			<div class="div-table-col1">OIDC Configurations</div>
+			<div class="div-table-col2">Openid Connect provider / Identity Provider setup</div>
+		</div>
+		<div class="div-table-row">
+			<div class="div-table-col1">Virtual Servers</div>
+			<div class="div-table-col2">Application domain or hostname for a gateway architecture</div>
+		</div>
+		<div class="div-table-row">
+			<div class="div-table-col1">Application Hosts</div>
+			<div class="div-table-col2">Target Applications or backend application server details</div>
+		</div>
+		<div class="div-table-row">
+			<div class="div-table-col1">Resources</div>
+			<div class="div-table-col2">URI components of the protected applications</div>
+		</div>
+		<div class="div-table-row">
+			<div class="div-table-col1">Header Mapping</div>
+			<div class="div-table-col2">HTTP-Headers (user data) that needs to be forwarded to the protected applications</div>
+		</div>
+		<div class="div-table-row">
+			<div class="div-table-col1">Authenion Instance</div>
+			<div class="div-table-col2">Authenion plug-in responsible for transferring the configuration data from UI to authenion server and vice versa. The default port is ‘8090’ & uses ‘https’.</div>
+		</div>
+	</div> -->
+
+
+				<table class="systemrequiremetable" cellpadding="5" cellspacing="5" style="background-color:#f5f5f6">
+
+					<tr>
+						<th class="symcomponent">Authenion Configurations&nbsp;</th>
+						<th class="symcomponent">&emsp;Requirements</th>
+					</tr>
+
+					<!--Applications-->
+					<tbody class="tbody">
+						<tr>
+							<td>
+								<p class="col-para-table">Applications</p>
+							</td>
+
+							<td>
+								<ul>
+									<p class="col-para-table">Entry for the protected applications in Authenion</p>
+
+								</ul>
+							</td>
+
+						</tr>
+						<!--OIDC Configurations-->
+						<tr>
+							<td>
+								<p class="col-para-table">Identity Provider Configuration</p>
+							</td>
+							<td>
+
+								<ul>
+									<p class="col-para-table">Your Organization's Identity Provider setup with Authenion for Authentication</p>
+
+								</ul>
+
+							</td>
+						</tr>
+
+						<!--Virtual Servers-->
+						<tr>
+							<td>
+								<p class="col-para-table">Virtual Servers</p>
+							</td>
+							<td>
+
+								<ul>
+									<p class="col-para-table">Application domain or hostname for a gateway architecture</p>
+								</ul>
+
+							</td>
+						</tr>
+
+						<!--Application Hosts-->
+						<tr>
+							<td>
+								<p class="col-para-table">Application Hosts</p>
+							</td>
+							<td>
+
+								<ul>
+									<p class="col-para-table">Protected application's server details (Application backend)</p>
+
+								</ul>
+
+							</td>
+						</tr>
+
+						<!--Resources-->
+						<tr>
+							<td>
+								<p class="col-para-table">Resources</p>
+							</td>
+							<td>
+
+								<ul>
+									<p class="col-para-table">URI components of the protected applications</p>
+
+								</ul>
+
+							</td>
+						</tr>
+						<!--Header Mapping-->
+						<tr>
+							<td>
+								<p class="col-para-table">Header Mapping</p>
+							</td>
+							<td>
+
+								<ul>
+									<p class="col-para-table">HTTP-Headers containing user data that needs to be forwarded to the protected applications</p>
+
+								</ul>
+
+							</td>
+						</tr>
+
+						<!--Authenion Instance-->
+						<tr>
+							<td>
+								<p class="col-para-table">Authenion Instance</p>
+							</td>
+							<td>
+
+								<ul>
+									<p class="col-para-table">Authenion plug-in responsible for transferring the configuration data from UI to authenion server and vice versa. The default port is ‘8090’ & uses ‘https’.</p>
+
+								</ul>
+
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<br><br>
+			</div>
+
+        <!-- ### SYSTEM REQUIREMENTS ### -->
+				<div>
+					<h4 style="font-family: sans-serif; font-size: 26px; font-weight: 600; color: #00297A">System Requirements</h4>
+					
+					<p class="col-para">The following requirements should be met for Authenion installation. Authenion qualifies & certifies the following configurations that they are compatible with the product. Authenion supports IPv4 addressing. </p>
+					<table class="systemrequiremetable" cellpadding = "5" cellspacing = "5" style="background-color:#f5f5f6">
+					
+					  <tr>
+							    <th class="symcomponent">System Components</th>
+								<th class="symcomponent">&emsp;Requirements</th>
+                    </tr>
+					 
+				 <tbody class="tbody">
+					 <!--Supported Operating Systems--> 
+					 <a style="padding:32px" name="SupportedOS"></a>
+						<tr>
+							<td>
+								<p class="col-para-table">Supported Operating Systems</p>
+                            </td>
+							
+								<td>
+									<ul>
+										<li><p class="col-para-table">Red Hat Enterprise Linux 7 & above</p></li>
+										<li><p class="col-para-table">CentOS 7 & above</p></li>
+										<li><p class="col-para-table">Oracle Enterprise Linux 7 & above</p></li>
+									</ul>
+								</td>
+							
+						</tr>
+                  <!--Linux User requirements in the Authenion Server-->
+				  <a style="padding:32px" name="LinuxUserrequirements"></a>
+						<tr>
+							<td>
+								<p class="col-para-table">Linux User requirements in the Authenion Server</p>
+                            </td>
+							<td>
+								
+								<ul>
+									<li>
+										<p class="col-para-table">Create a Linux user in the name of ‘appuser’ to execute Authenion scripts.</p>
+									</li>
+									<li>
+										<p class="col-para-table">The 'appuser' should have Read/Write privileges to the Authenion deployment package.</p>
+									</li>
+									<li><p class="col-para-table" ">Authenion should be installed in the ‘/home/appuser’ directory.</p></li>
+								</ul>
+								
+							</td>
+						</tr>
+
+					<!--Supported Java environment-->
+					<a style="padding:32px" name="SupportedJavaenvironment"></a>
+					<tr>
+						<td>
+							<p class="col-para-table">Supported Java environment</p>
+						</td>
+						<td>
+							
+							<ul>
+								<li>
+									<p class="col-para-table">OpenJDK 11</p>
+								</li>
+								<li><p class="col-para-table">Oracle Java SE Development Kit 11 LTS / Oracle Java SE Runtime Environment (Server JRE) 8</p></li>
+							</ul>
+							
+						</td>
+					</tr>
+
+					<!--Minimum Hardware requirements-->
+					<a style="padding:32px" name="MinimumHR"></a>
+					<tr>
+						<td>
+							<p class="col-para-table">Minimum Hardware requirements</p>
+						</td>
+						<td>
+							
+							<ul>
+								<li><p class="col-para-table">2 CPU/Cores recommended</p></li>
+								<li><p class="col-para-table">4 GB of RAM</p></li>
+								<li><p class="col-para-table">5 GB available space</p></li>
+							</ul>
+							
+						</td>
+					</tr>
+
+					<!--Recommended Hardware requirements-->
+						<a style="padding:32px" name="RecommendedHR"></a>
+					<tr>
+						<td>
+							<p class="col-para-table">Recommended Hardware requirements</p>
+						</td>
+						<td>
+							
+							<ul>
+								<li>
+									<p class="col-para-table">4 CPU/Cores recommended</p>
+								</li>
+								<li>
+									<p class="col-para-table">8 GB of RAM</p>
+								</li>
+								<li><p class="col-para-table">25 GB available space</p></li>
+							</ul>
+							
+						</td>
+					</tr>
+					<!--Port requirements-->
+					<a style="padding:32px" name="PortRequirements"></a>
+					<tr>
+						<td>
+							<p class="col-para-table">Default Port requirements</p>
+						</td>
+						<td>
+							
+							<ul>
+								<li>
+									<p class="col-para-table">Authenion Sync&emsp;-&emsp;HTTPS,&emsp;TCP - 8090</p>
+								</li>
+								<li><p class="col-para-table">Authenion Virtual Server&emsp;-&emsp;HTTP (or) HTTPS,&emsp;&emsp;TCP - 0 to 65535</p></li>
+							</ul>
+							
+						</td>
+					</tr>
+				</tbody> 
+				</table>
+				<br>
+			
+				
+				<!-- ### INSTALLATION ### -->
+				<div>
+					<!-- <a name="install-authenion section"></a> -->
+					<a style="padding:32px" name="Installation"></a>
+					<h4 style="font-family:sans-serif; font-size:26px; font-weight: 600; color: #00297A">Installation</h4>
+                    <p class="col-para">This section provides instructions for installing, configuring & starting/stopping Authenion product. Authenion can be installed on the Linux servers. For the System requirements, please visit System Requirements section.</p>
+                     <a style="padding:32px" name="pre-reqs section"></a>
+                     <p class="col-sub-headings">1. Pre-requisites</p>
+					<!-- <ul class="col-para"> -->
+						<ul style="margin-left:30px;" class="col-para">
+						<li><p class="col-para" style="background-color:#f5f5f6">Ensure the System Requirements are met.</p></li>
+						<li><p class="col-para" style="background-color:#f5f5f6">Install a supported Java software with the JAVA_HOME environment variable set.</p></li>
+						<li><p class="col-para" style="background-color:#f5f5f6">The JAVA_HOME variable must be set representing the location of your Java installation.</p></li>
+					
+					</ul>
+
+
+					<!-- INSTALL AUTHENION SECTION -->
+					<a style="padding:32px" name="install-authenion section"></a>
+					<p class="col-sub-headings">2. Install Authenion</p>
+					<ol class="col-para">
+						<li><p class="col-para">Request or download the authenion-2.0 product distribution zip file and a valid license from the Authenion support portal or by contacting your account manager in LikeMinds.</p></li>
+						<li><p class="col-para">Install authenion by unzipping the authenion-2.0.zip into the <i>“/home/appuser”</i> directory in the Authenion server.</p></li>
+						<li><p class="col-para">Authenion file system after extracting.</p></li>
+
+
+						<!-- TABLE2 -->
+						<!-- <div class="div-table2">
+		<div class="div-table2-row">
+			<div class="div-table2-col1">Distribution ZIP file</div>
+			<div class="div-table2-col2">Download & extract the distribution zip into the installation directory <b>‘/home/appuser’</b> in your Linux server</div>
+		</div>
+		<div class="div-table2-row">
+			<div class="div-table2-col1">File system after extraction</div>
+			<div class="div-table2-col2">&lt;authenion_install_dir&gt;:&nbsp;&nbsp;<i>/home/appuser/authenion-2.0/authenion/</i></div>
+		</div>
+		<div class="div-table2-col1">Directory Structure</div>
+		<div class="div-table2-col2">authenion-2.0</div>
+		<div class="div-table2-col2">&emsp;&emsp;- authenion</b></div>
+		<div class="div-table2-col2">&emsp;&emsp;&emsp;&emsp;- bin</div>
+		<div class="div-table2-col2">&emsp;&emsp;&emsp;&emsp;- config</div>
+		<div class="div-table2-col2">&emsp;&emsp;&emsp;&emsp;- deploy</div>
+		<div class="div-table2-col2">&emsp;&emsp;&emsp;&emsp;- logs</div>
+		<div class="div-table2-col2">&emsp;&emsp;&emsp;&emsp;- server</div>
+	</div> -->
+						<!-- install Authenion -->
+						<table class="systemrequiremetable" cellpadding="5" cellspacing="5" style="background-color:#f5f5f6">
+
+							<tr>
+								<th class="symcomponent"></th>
+								<th class="symcomponent"></th>
+							</tr>
+
+							<!--Applications-->
+							<tbody class="tbody">
+								<tr>
+									<td>
+										<p class="col-para-table">Distribution ZIP file</p>
+									</td>
+
+									<td>
+										<ul>
+											<li class="li"><p class="col-para-table">Download & extract the distribution zip into the installation directory <b>‘/home/appuser’</b></li>
+
+										</ul>
+									</td>
+
+								</tr>
+								<!--File system after extraction-->
+								<tr>
+									<td>
+										<p class="col-para-table">File system after extraction</p>
+									</td>
+									<td>
+
+										<ul>
+											<li class="li"><p class="col-para-table">&lt;authenion_install_dir&gt;:&nbsp;&nbsp;<i>/home/appuser/authenion-2.0/authenion/</i></p></li>
+
+										</ul>
+
+									</td>
+								</tr>
+
+								<!--Directory Structure-->
+								<tr>
+									<td>
+										<p class="col-para-table">Directory Structure</p>
+									</td>
+									<td>
+
+										<ul>
+											<li class="li" style="list-style-type: none"><p class="col-para-table"> <b>-</b> authenion-2.0</b></li>
+											<li class="li" style="margin-left:10px;list-style-type: none"><p class="col-para-table"> <b>-</b> authenion</b></li>
+											<li class="li" style="margin-left:30px;list-style-type: none"><p class="col-para-table"> <b>-</b> bin</li>
+											<li class="li" style="margin-left:30px;list-style-type: none"> <p class="col-para-table"><b>-</b> config</li>
+											<li class="li" style="margin-left:30px;list-style-type: none"><p class="col-para-table"> <b>-</b> deploy</li>
+											<li class="li" style="margin-left:30px;list-style-type: none"><p class="col-para-table"> <b>-</b> logs</li>
+											<li class="li" style="margin-left:30px;list-style-type: none"> <p class="col-para-table"><b>-</b> server</li>
+										</ul>
+
+									</td>
+								</tr>
+
+
+							</tbody>
+						</table>
+						<br>
+
+						<li><p class="col-para">Copy the obtained license file <i>“authenion.lic”</i> to the Authenion server and place it in the <i>&lt;authenion_install_dir&gt;/config</i> directory.</p></li>
+					</ol>
+
+
+					<!-- SETUP SECTION -->
+					<a style="padding:32px" name="setup section"></a>
+					<p class="col-sub-headings">3. Setup Authenion</p>
+					<ol class="col-para">
+						<li><p class="col-para">Navigate to the following directory in the Authenion server.</li>
+						<!-- TABLE3 -->
+						<div class="div-table3">
+							<div class="div-table3-row">
+								<div class="div-table3-col">#]&emsp;&lt;authenion_install_dir&gt;/bin</div>
+							</div>
+						</div>
+						<br>
+						<li><p class="col-para">Execute the following command to grant permission.</li>
+						<div class="div-table3">
+							<div class="div-table3-row">
+								<div class="div-table3-col">#]&emsp;chmod +x *</div>
+							</div>
+						</div>
+						<br>
+						<li><p class="col-para">Run the setup command.</li>
+						<div class="div-table3">
+							<div class="div-table3-row">
+								<div class="div-table3-col">#]&emsp;./setup.sh</div>
+							</div>
+						</div>
+						<br>
+						<li><p class="col-para">Read and accept the Software Terms & Conditions. This will complete the setup process.</li>
+						<p class="col-para"><i> Note: In case if the process fails to complete the setup, you can re-run the setup script to complete it</i></p>
+					</ol>
+
+
+					<!-- START/STOP SECTION -->
+					<a style="padding:32px" name="start-stop section"></a>
+					<p class="col-sub-headings">4. Start & Stop Services</p>
+					<ol class="col-para">
+						<li><p class="col-para">To Start the Authenion instance, navigate to the <i>“&lt;authenion_install_dir&gt;/bin”</i> directory and run the <i>‘start-instance.sh’</i> command. </li>
+						<!-- TABLE3 -->
+						<div class="div-tables3">
+							<div  class="div-table3-row1">
+								<div  class="div-table3-col">#]&emsp;cd &lt;authenion_install_dir&gt;/bin</div>
+								<div  class="div-table3-col">#]&emsp;./start-instance.sh</div>
+							</div>
+						</div>
+						<br>
+						<li><p class="col-para">To Stop the Authenion instance, run the <i>‘stop-instance.sh’</i> command. </li>
+						<div class="div-tables3">
+							<div class="div-table3-row1">
+								<div  class="div-table3-col">#]&emsp;cd &lt;authenion_install_dir&gt;/bin</div>
+								<div  class="div-table3-col">#]&emsp;./stop-instance.sh</div>
+							</div>
+						</div>
+						<br>
+						<li><p class="col-para">Check the status of the Authenion application by executing the <i>‘status.sh’</i> command. </li>
+					</ol>
+
+
+					<a style="padding:32px" name="health-check section"></a>
+					<p class="col-sub-headings">5. Authenion Health-check</p>
+					<ol class="col-para">
+						<li><p class="col-para">To check the Authenion status through heartbeat URL, enter the following URL in the browser. This can be used for monitoring the Authenion services.<p></li>
+					</ol>
+					<!-- TABLE3 -->
+					<div class="div-table3">
+						<div class="div-table3-row">
+							<div style="width: 470px" class="div-table3-col">https://&lt;authenion-virtualserver:port&gt;/ssolibrary/oidc/heartbeat</div>
+						</div>
+					</div>
+					<br>
+
+
+					<a style="padding:32px" name="idp-cert section"></a>
+					<p class="col-sub-headings">6. Install Identity Provider’s Certificate into Authenion Trust Store</p>
+					<p class="col-para">The following steps will guide you to import the Identity provider’s certificate (PingFederate) into the Authenion trust store.</p>
+					<ol class="col-para">
+						<li><p class="col-para">Export the SSL Certificate from the Identity Provider (PingFederate, PingOne, AzureAD, etc.,) and place the certificate anywhere inside “&lt;authenion_install_dir&gt;” in the Authenion server.<p></li>
+						<li><p class="col-para">Run the following command in the Authenion server to install the Identity Provider’s certificate.<p></li>
+					</ol>
+					<!-- TABLE3 -->
+					<div class="div-table3">
+						<div class="div-table3-row">
+							<div style="width: 460px" class="div-table3-col">./keytool -import -alias &lt;alias_name&gt; -keystore &lt;/path-to-java-cacerts&gt; -file &lt;/path-to-IdentityProvider-cert&gt;</div>
+						</div>
+					</div>
+					<br>
+
+					<a style="padding:32px" - name="ssl-cert section"></a>
+					<p class="col-sub-headings">7. Install SSL Certificates for Authenion (optional)</p>
+					<p class="col-para">Authenion allows you to install your organization’s signed certificates. The certificates should be in the .crt & .key files format. To place your organization’s cert in Authenion, follow the steps below.</p>
+					<ol class="col-para">
+						<li><p class="col-para">If you have the certificate & private key in pkcs format, move the certificate to the Authenion server & run the following commands.<p></li>
+						<!-- TABLE3 -->
+						<div class="div-tables3">
+							<div class="div-table3-row1">
+								<div class="div-table3-col"><u>To extract .crt :</u></div>
+								<div class="div-table3-col">openssl pkcs12 -in ./myorgcert.p12 -clcerts -nokeys -out server.crt</div><br><br>
+							</div>
+							<div class="div-table3-row1">
+								<div class="div-table3-col"><u>To extract .key :</u></div>
+								<div class="div-table3-col">openssl pkcs12 -in ./myorgcert.p12 -nocerts -nodes -out server.key</div>
+							</div>
+						</div>
+						<br>
+						<li><p class="col-para">Copy the .crt & .key extracted in the previous step and place it in “&lt;authenion_install_dir&gt;/server/conf/certs” directory.<p></li>
+						<li><p class="col-para">The above steps can be repeated during the Authenion certificate renewal process.<p></li>
+							<p class="col-para"><i> Note: This setup is optional. The Certificates can also be installed on a load-balancer servers.</i></p>	
+					</ol>
+					<br>
+				</div> <!-- ### INSTALLATION ### -->
+				<!-- ### UI & NAVIGATION ### -->
+				<div>
+					<!-- <a name="install-authenion section"></a> -->
+					<a style="padding: 35px" name="Console Navigation & Configurations"></a>
+					<h4 style="font-family:sans-serif; font-size:26px; font-weight: 600; color: #00297A">Console Navigation & Configurations</h4>
+					<p class="col-para">This section describes the UI of Authenion (Admin Console) and its navigation and provides steps for accessing and configuring it. Access the Authenion UI by clicking <a href="https://launch.authenion.com">Administrative Console</a>.</p>
+
+
+					<a style="padding: 35px" name="Applications / Dashboard page"></a>
+					<p class="col-sub-headings">1. Dashboard / Applications </p>
+					<p class="col-para">The  Dashboard / Applications page lets you view, create, or modify the applications we protect. The total protected applications will be displayed in the Dashboard Application’s tab. It also lets you access the Identity Provider Configuration page next to the Applications tab and access the sidebar menu for other required configurations.</p>
+
+					<!-- Image 1 with onclick event -->
+                   <img src="assets/img/Dashboard.png" alt="" style="width:60%;height:40%;cursor:pointer" onclick="openModal('modalContainer1', 'modalImage1')" class="col-images-intro" />
+
+                     <!-- Modal container for Image 1 -->
+                         <div id="modalContainer1" class="modal-container" onclick="closeModal('modalContainer1')">
+                            <img id="modalImage1" class="modal-image" src="assets/img/Dashboard.png" alt="">
+                          </div>
+						  <br>
+                     <!-- Add any other content you want to display on the page here -->
+
+                     <script>
+						function openModal(containerId, imageId) {
+							var modalContainer = document.getElementById(containerId);
+							modalContainer.style.display = "block";
+						}
+					
+						function closeModal(containerId) {
+							var modalContainer = document.getElementById(containerId);
+							modalContainer.style.display = "none";
+						}
+					</script>
+					  
+					  
+						<a style="padding: 35px" name="Getting config-data into the UI"></a>
+						<p class="col-sub-headings">2. Import - Getting config-data into the UI</p>
+						<p class="col-para">The Import button in the Dashboard page lets you get the data into the UI.</p>
+
+						  <!-- <img  src="assets/img/import1.png" alt="" class="col-images-intro" /> <br> -->
+
+						 <!-- Image 2 with onclick event -->
+                 <img src="assets/img/import1.png" alt="" style="width:60%;height:40%;cursor:pointer" onclick="openModal('modalContainer2', 'modalImage2')" class="col-images-intro" />
+
+                         <!-- Modal container for Image 2 -->
+                     <div id="modalContainer2" class="modal-container" onclick="closeModal('modalContainer2')">
+                        <img id="modalImage2" class="modal-image" src="assets/img/import1.png" alt="">
+                    </div>
+					<br>
+
+							<p class="col-para">The Import page has two operations:</p>
+							<ol class="col-para">
+								<li><p class="col-para" style="background-color:#f5f5f6"><u>Fetch Function:</u>&emsp;The Fetch function is used to get the data from your Authenion Server. It automatically retrieves all the Authenion config data and makes it available in the Authenion UI. It uses the Authenion Instance plugin running in the Authenion server.<p></li>
+								<li><p class="col-para" style="background-color:#f5f5f6"><u>Upload Operation:</u>&emsp;The Upload operation is used to load the data from your local file system into the UI manually through any previously extracted configs.<p></li>
+							</ol>
+							
+
+							<p class="col-sub-headings-sub"><b>Retrieving Config data from existing Authenion Instance</b></p>
+							<ol class="col-para">
+								<li><p class="col-para">For first time installation & configuration of Authenion, skip this step and continue with the next section –  <a href="#OIDC Configuration"><b>Identity Provider Configuration</b></a>.</p></li>
+								<li><p class="col-para">If you have Authenion server up & running  already, you can bring the configuration data into the UI through the <b>Import function</b>.</p></li>
+								<li><p class="col-para">Click Import in the Authenion Dashboard.</p></li>
+								<li><p class="col-para">In the Import page, enter the detail for <b>Authenion Instance</b>. For example, <i>authenion.example.com</i></p></li>
+								<li><p class="col-para">Click Fetch.</p></li>
+								<li><p class="col-para">This will bring your Authenion configuration data from authenion server to the UI.</p></li>
+							</ol>
+
+
+							<a style="padding: 35px" name="OIDC Configuration"></a>
+							<p class="col-sub-headings">3. Identity Provider Configuration</p>
+							<p class="col-para">The Identity Provider Configuration page allows you to connect with your Identity Provider / OIDC Token Provider. This configuration includes details such as Token Providers OAuth/OIDC endpoints, Authenion Client registration details, Claims to get from the Token Provider. It includes additional configuration for Authenion such as Authenion Instance, Domain & Session duration configurations.</p>
+
+							<!-- <img src="assets/img/OIDC Configuration.png" alt="" class="col-images-intro" /> <br> -->
+
+							<!-- Image with onclick event -->
+                       <img src="assets/img/OIDC Configuration.png" alt="" style="width:60%;height:40%;cursor:pointer" onclick="openModal('modalContainer3', 'modalImage3')" class="col-images-intro" />
+
+                 <!-- Modal container -->
+                   <div id="modalContainer3" class="modal-container" onclick="closeModal('modalContainer3')">
+                        <img id="modalImage3" class="modal-image" src="assets/img/OIDC Configuration.png" alt="">
+                         </div>
+                          <br>
+
+								<p class="col-sub-headings-sub"><b>Adding Identity Provider Configuration</b></p>
+								<ol class="col-para">
+									<li><p class="col-para">Click Identity Provider Configuration in the Dashboard page.</p></li>
+									<li><p class="col-para">Enter the following details & click Save to configure your Token Provider with Authenion for authentication.</b></p></li>
+
+									<ul class="col-para">
+										<li><p class="col-sub-headings-sub"><b><u>OpenID Connect Provider - Settings</u></b></p></li>
+
+										<!-- <div class="div-table4">
+											<div class="div-table4-row">
+												<div class="div-table4-col1">Authorization URL</div>
+												<div class="div-table4-col2">https://idp-example.com/authorize</div>
+											</div>
+											<div class="div-table4-row">
+												<div class="div-table4-col1">Token URL</div>
+												<div class="div-table4-col2">https://idp-example.com/token</div>
+											</div>
+											<div class="div-table4-row">
+												<div class="div-table4-col1">Logout URL</div>
+												<div class="div-table4-col2">https://idp-example.com/idp/logout</div>
+											</div>
+											<div class="div-table4-row">
+												<div class="div-table4-col1">JWKS URL</div>
+												<div class="div-table4-col2">https://idp-example.com/jwks</div>
+											</div>
+											<div class="div-table4-row">
+												<div class="div-table4-col1">Issuer</div>
+												<div class="div-table4-col2">https://idp-example.com</div>
+											</div>
+											<div class="div-table4-row">
+												<div class="div-table4-col1">Userinfo URL</div>
+												<div class="div-table4-col2">https://idp-example.com/idp/userinfo</div>
+											</div>
+											<div class="div-table4-row">
+												<div class="div-table4-col1">Audience</div>
+												<div class="div-table4-col2">authenion</div>
+											</div>
+											<div class="div-table4-row">
+												<div class="div-table4-col1">Client ID</div>
+												<div class="div-table4-col2">&lt;Registered value client_id from your IdP&gt;</div>
+											</div>
+											<div class="div-table4-row">
+												<div class="div-table4-col1">Client Secret</div>
+												<div class="div-table4-col2">&lt;Registered client_secret value from your IdP&gt;</div>
+											</div>
+											<div class="div-table4-row">
+												<div class="div-table4-col1">Scope</div>
+												<div class="div-table4-col2">openid (Multiple scopes can be added)</div>
+											</div>
+											<div class="div-table4-row">
+												<div class="div-table4-col1">Claims</div>
+												<div class="div-table4-col2">Claims from Identity Provider (sub, username, email, etc.,)</div>
+											</div>
+											<div class="div-table4-row">
+												<div class="div-table4-col1">Authenion Instances</div>
+												<div class="div-table4-col2">
+													https://&lt;authenion.example.com&gt;:8090
+													<p style="font-size:0.6rem; color:black"><i><br>Note: If the Authenion is configured in cluster, enter the Authenion Instances value from all the Authenion servers. The default port is 8090 and enabled with HTTPS. Supports multiple entries.</i></p>
+												</div>
+											</div> -->
+
+										<!-- </div> -->
+										<!-- install Authenion -->
+					                 <table class="systemrequiremetable" cellpadding = "5" cellspacing = "5" style="background-color:#f5f5f6">
+						               <tr>
+							       	   <th class="symcomponent" >Configurations</th>
+										   <th class="symcomponent">&emsp;Values</th>
+					                   </tr>
+				
+				                       <tbody class="tbody">
+										<!--Authorization URL-->  
+					                  	  <tr>
+							                <td>
+												<li style="list-style-type: none;position:indent;"><p class="col-para-table">Authorization URL</li>
+							                </td>
+							                 <td>
+									           <ul>
+										         <li class="li" style="list-style-type: none"<p class="col-para-table">https://idp-example.com/authorize</li>
+										       </ul>
+								           </td>
+						               </tr>
+					                      <!--Token URL-->  
+						                <tr>
+							               <td>
+											<li style="list-style-type: none;position:indent;"><p class="col-para-table">Token URL</li>
+							              </td>
+							               <td>
+									        <ul>
+										      <li class="li" style="list-style-type: none"<p class="col-para-table">https://idp-example.com/token</li>
+									        </ul>
+								          </td>
+						                </tr>
+										 <!--JWKS URL-->  
+										 <tr>
+											<td>
+											  <li style="list-style-type: none"><p class="col-para-table">JWKS URL</li>
+										   </td>
+											<td>
+											 <ul>
+											   <li class="li" style="list-style-type: none"><p class="col-para-table">https://idp-example.com/jwks</li>
+											 </ul>
+										   </td>
+										 </tr>
+                                           <!--Logout URL-->  
+						                 <tr>
+							               <td>
+								            <li style="list-style-type: none;position:indent;"><p class="col-para-table">Logout URL</li>
+							                </td>
+							                 <td>
+									            <ul>
+										           <li class="li" style="list-style-type: none"><p class="col-para-table">https://idp-example.com/idp/logout</li>
+								               </ul>
+								             </td>
+						                 </tr>
+					                    <!--Issuer-->  
+					                	<tr>
+				                         <td>
+											<li style="list-style-type: none;position:indent;"><p class="col-para-table">Issuer</li>
+							            </td>
+							              <td>
+									       <ul>
+										       <li class="li" style="list-style-type: none"><p class="col-para-table">https://idp-example.com</li>
+				                        	</ul>
+								          </td>
+						               </tr>
+						              <!--Userinfo URL-->  
+						               <tr>
+							              <td>
+											<li style="list-style-type: none;position:indent;"><p class="col-para-table">Userinfo URL</li>
+							              </td>
+							               <td>
+									            <ul>
+										           <li class="li" style="list-style-type: none"><p class="col-para-table">https://idp-example.com/idp/userinfo</li>
+								            	</ul>
+								          </td>
+						                </tr>
+							          <!--Audience-->  
+						                   <tr>
+							                 <td>
+												<li style="list-style-type: none;position:indent;"><p class="col-para-table">Audience</li>
+					                           </td>
+							                    <td>
+								                   	<ul>
+								                  		<li class="li" style="list-style-type: none"><p class="col-para-table">authenion</li>
+								                	</ul>
+							                	</td>
+						                    </tr>
+					                  <!--Client ID-->  
+						                     <tr>
+							                     <td>
+													<li style="list-style-type: none;position:indent;"><p class="col-para-table">Client ID</li>
+							                    </td>
+							                       <td>
+									                 <ul>
+										               <li class="li" style="list-style-type: none"><p class="col-para-table">Registered value client_id from your IdP</li>
+								                      </ul>
+								                    </td>
+						                          </tr>
+					                    <!--Client Secret-->  
+					                                <tr>
+					                                	<td>
+															<li style="list-style-type: none;position:indent;"><p class="col-para-table">Client Secret</li>
+					                                 	</td>
+						                                 <td>
+								                          <ul>
+									                        <li class="li" style="list-style-type: none"><p class="col-para-table">Registered client_secret value from your IdP</li>
+							                              </ul>
+							                            </td>
+					                                </tr>
+					                 	<!--Scope-->  
+						                   <tr>
+							                   <td>
+												<li style="list-style-type: none;position:indent;"><p class="col-para-table">Scope</li>
+
+							                   </td>
+							                   <td>
+									             <ul>
+										           <li class="li" style="list-style-type: none"><p class="col-para-table">openid (Multiple scopes can be added)</li>
+								                   </ul>
+								               </td>
+						                     </tr>
+							            <!--Claims-->  
+						                   <tr>
+							                    <td>
+								                    <li style="list-style-type: none;position:indent;"><p class="col-para-table">Claims</li>
+							                     </td>
+							                      <td>
+									                <ul>
+										             <li class="li" style="list-style-type: none"><p class="col-para-table">Claims from Identity Provider (sub, username, email, etc.,)</li>
+								                     </ul>
+								                </td>
+						                      </tr>
+								         <!--Authenion Instances-->  
+						                      <tr>
+							                    <td>
+								                   
+												   <li style="margin-top:-37px;list-style-type: none;position:indent;"><p class="col-para-table">Authenion Instances</li>
+							                     </td>
+							                         <td>
+									                    <ul>
+										                  <li class="li" style="list-style-type: none;margin-top:10px;"><p class="col-para-table">https://authenion.example.com:8090</li>
+										               
+															<li class="li" style="list-style-type: none;font-size:12px;max-width:500px;"><p class="col-para-table"><i><b>Note:</b> If the Authenion is configured in cluster, enter the <b>Authenion Instances</b> value from all the Authenion servers. The default port is 8090 and enabled with HTTPS. Supports multiple entries.</i>
+</ul>
+								                       </td>
+													   
+													  
+													   </li>
+													
+						                        </tr>
+				                       </tbody> 
+				                     </table>
+										<br>
+										
+
+										<li><p class="col-sub-headings-sub"><b><u>Cookie Settings</u></b></p></li>
+										<!-- <div class="div-table4">
+											<div class="div-table4-row">
+												<div class="div-table4-col1">Cookie Domain</div>
+												<div class="div-table4-col2">.example.com</div>
+											</div>
+											<div class="div-table4-row">
+												<div class="div-table4-col1">Session Duration</div>
+												<div class="div-table4-col2">3600</div>
+											</div>
+										</div> -->
+										<table class="systemrequiremetable" cellpadding = "5" cellspacing = "5" style="background-color:#f5f5f6">
+											<tr>
+												<th class="symcomponent">Configurations</th>
+												<th class="symcomponent">&emsp;Values</th>
+											</tr>
+					 
+											<tbody class="tbody">
+												<!--Cookie Domain-->  
+												<tr>
+													<td>
+														<li style="list-style-type: none;position:indent;padding-right:30px"><p class="col-para-table">Cookie Domain</p></li>
+													 </td>
+													  <td>
+														<ul>
+														 <li class="li" style="list-style-type: none"><p class="col-para-table">example.com&emsp;</p></li>
+														 </ul>
+													</td>
+												  </tr>
+											 <!--Session Duration-->  
+												  <tr>
+													<td>
+														<li style="list-style-type: none;position:indent;"><p class="col-para-table">Session Duration</p></li>
+													 </td>
+														 <td>
+															<ul>
+															  <li class="li" style="list-style-type: none"><p class="col-para-table">3600</p></li>
+															</ul>
+														   </td>
+													</tr>
+										   </tbody> 
+										 </table>
+							
+				                </div> <!-- ### UI & NAVIGATION ### -->
+								<br>
+								<!-- <img src="assets/img/OIDCConfiguration1.png" alt="" class="col-images-intro" /> <br> -->
+								<!-- Image with onclick event -->
+                          <img src="assets/img/OIDCConfiguration1.png" alt="" style="width:60%;height:40%;cursor:pointer" onclick="openModal('modalContainer4', 'modalImage4')" class="col-images-intro" />
+
+                              <!-- Modal container -->
+                        <div id="modalContainer4" class="modal-container" onclick="closeModal('modalContainer4')">
+                          <img id="modalImage4" class="modal-image" src="assets/img/OIDCConfiguration1.png" alt="">
+                         </div>
+                           <br>
+				             <!-- Sidebar-->
+							 <div>
+								<a style="padding: 35px" name="Sidebar"></a>
+							       <p class="col-sub-headings">4. Sidebar</p>
+								   <!-- Image with onclick event -->
+								   
+							        <p class="col-para">The Sidebar Menu has the following Configurations</p>
+							         <ul style="margin-left:30px;" class="col-para">
+								      <li><p class="col-para">Applications</p></li>
+								      <li><p class="col-para">Virtual Servers</p></li>
+								      <li><p class="col-para">Application Hosts</p></li>
+								      <li><p class="col-para">Header Mappings</p></li>
+								      <li><p class="col-para">Resources</p></li>
+								      <li><p class="col-para">Authenion Status</p></li>
+								      <li><p class="col-para">Sync</p></li>
+								      <li><p class="col-para">Export</p></li>
+							       </ul>
+								  
+							</div>
+							<div>
+								<img src="assets/img/sidebar.png" alt="" style="width:40%;height:40%;cursor:pointer;margin-top:-320px;margin-left:350px;"  onclick="openModal('modalContainer5', 'modalImage5')" class="col-images-intro" />
+
+							   </div>
+							 
+
+                          <!-- Modal container -->
+                      <div id="modalContainer5" class="modal-container" onclick="closeModal('modalContainer5')">
+                         <img id="modalImage5" class="modal-image" src="assets/img/sidebar.png" alt="">
+                      </div>
+                     <br>
+
+							<!-- Applications -->
+							<div>
+								<a style="padding: 35px" name="Applications"></a>
+							       <p class="col-sub-headings">5. Applications</p>
+							        <p class="col-para">Applications represent the protected Applications to which the user requests are sent. Each application will have a
+										dedicated entry in the Dashboard/Applications tab. Applications are configured with Virtual Servers, Resources, Header
+										Mappings & corresponds to a single Application Host (target application/backend server). Applications in Authenion can
+										be configured with both protected and unprotected (excluded) resources. Authentication requirements will be set for the
+										protected resources in an application.</p>
+										<!-- <img src="assets/img/Dashboard.png" alt="" class="col-images-intro" /> <br> -->
+										<!-- Image with onclick event -->
+                      <img src="assets/img/Dashboard.png" alt="" style="width:60%;height:40%;cursor:pointer" onclick="openModal('modalContainer7', 'modalImage7')" class="col-images-intro" />
+
+                      <!-- Modal container -->
+                      <div id="modalContainer7" class="modal-container" onclick="closeModal('modalContainer7')">
+                         <img id="modalImage7" class="modal-image" src="assets/img/Dashboard.png" alt="">
+                         </div>
+                          <br>
+										<!-- <h6 style="font-size: 15px;color: #4e4f50;"> -->
+											<h6 class="col-sub-headings">
+											Adding an Application
+										</h6>
+										<p class="col-para">
+											Adding a protected application in Authenion has the following pre-requisites. Complete the setup for the below
+											configurations before you create a new application. 
+										</p>
+							         <!-- <ul class="col-para"> -->
+										<ul style="margin-left:30px;" class="col-para">
+								      <li><p class="col-para">Virtual Servers
+										                                  <a href="#Virtual Servers"> (Section 6)</a>
+										   </p></li>
+								      <li><p class="col-para">Application Hosts 
+										                                  <a href="#Application Hosts">(Section 7)</a>
+								            </p></li>
+								      <li><p class="col-para">Header Mappings 
+										                                   <a href="#Header Mapping">(Section 8)</a>
+											</p></li>
+								      <li><p class="col-para">Resources
+										                                   <a href="#Resources">(Section 9)</a>
+											</p></li>
+								    </ul>
+									<ol class="col-para">
+										<li><p class="col-para">To add an application, click <b>New Application</b> in the Dashboard page.</p></li>
+										<li><p class="col-para">Enter the following details: </p></li>
+									</p>
+									<br>
+
+									<!-- table ### -->
+									<table class="systemrequiremetable" cellpadding = "5" cellspacing = "5" style="background-color:#f5f5f6">
+										<tr>
+										   <th class="symcomponent" >Configurations</th>
+										   <th class="symcomponent">&emsp;Values</th>
+										</tr>
+				 
+										<tbody class="tbody">
+										 <!--Application ID-->  
+										 <tr>
+											<td>
+												<p class="col-para-table">Application ID</p>
+										   </td>
+											  <td>
+												<ul>
+												  <li class="li"><p class="col-para-table">1 (Unique ID)</li>
+												 </ul>
+											   </td>
+											 </tr>
+									   <!--Application name -->  
+											  <tr>
+												  <td>
+													  <p class="col-para-table">Application Name </p>
+												 </td>
+													<td>
+													  <ul>
+														<li class="li"><p class="col-para-table">My App </li>
+													   </ul>
+													 </td>
+												   </tr>
+										 <!--Virtual Servers -->  
+													 <tr>
+														 <td>
+															 <p class="col-para-table">Virtual Servers </p>
+														  </td>
+														  <td>
+														   <ul>
+															 <li class="li"><p class="col-para-table">AppVirtualServer&emsp;(Virtual Server configured in <a href="#Virtual Servers"> Section 6 </a>)</li>
+														   </ul>
+														 </td>
+													 </tr>
+										  <!--Header Mapping  -->  
+										  <tr>
+											<td>
+												<p class="col-para-table">Header Mappings  </p>
+											 </td>
+											 <td>
+											  <ul>
+												<li class="li"><p class="col-para-table">MyAppHeaders &emsp;(Header Mapping configured <a href="#Header Mapping">Section 8</a>)</li>
+											  </ul>
+											</td>
+										</tr>
+										<!--Protected Resource -->  
+										<tr>
+											<td>
+												<p class="col-para-table">Protected Resource </p>
+											 </td>
+											 <td>
+											  <ul>
+												<li class="li"><p class="col-para-table">MyAppResources&emsp;(Protected Resource configured <a href="#Resources">Section 9</a>)</li>
+											  </ul>
+											</td>
+										</tr>
+										<!--Excluded Resource  -->  
+										<tr>
+											<td>
+												<p class="col-para-table">Excluded Resource  </p>
+											 </td>
+											 <td>
+											  <ul>
+												<li class="li"><p class="col-para-table">UnprotectdResource&emsp;(Excluded Resource configured <a href="#Resources">Section 9</a>)</li>
+											  </ul>
+											</td>
+										</tr>
+										<!--Application Host -->  
+										<tr>
+											<td>
+												<p class="col-para-table">Application Hosts </p>
+											 </td>
+											 <td>
+											  <ul>
+												<li class="li"><p class="col-para-table">MyAppBackend&emsp;(Application Host configured <a href="#Application Hosts">Section 7</a>)</li>
+											  </ul>
+											</td>
+										</tr>
+										<!--Authenion Instances -->  
+										<tr>
+											<td>
+												<p class="col-para-table">Authenion Instances </p>
+											 </td>
+											 <td>
+											  <ul>
+												<li class="li"><p class="col-para-table">https://authenion.example.com:8090&emsp;&emsp;(auto populated)
+</li>
+											  </ul>
+											</td>
+										</tr>
+									</tbody> 
+								 </table>
+									<br />
+									<li><p class="col-para">Click <b>Save</b> to complete the configuration for a new application. </p></li>
+									<!-- <img src="assets/img/NewApplication.png" alt="" class="col-images-intro" /> <br>
+							                <p>Authenion Dashboard shows the number of Applications configured. </p>
+							            <img src="assets/img/NewApplication1.png" alt="" class="col-images-intro" />  -->
+								</div>
+								<!-- <img src="assets/img/NewApplication.png" alt="" class="col-images-intro" /> <br> -->
+								<!-- Image with onclick event -->
+                        <img src="assets/img/NewApplication.png" alt="" style="width:60%;height:40%;cursor:pointer" onclick="openModal('modalContainer8', 'modalImage8')" class="col-images-intro" />
+
+                           <!-- Modal container -->
+                     <div id="modalContainer8" class="modal-container" onclick="closeModal('modalContainer8')">
+                     <img id="modalImage8" class="modal-image" src="assets/img/NewApplication.png" alt="">
+                        </div>
+						<br>
+							                <p style="font-family:sans-serif; font-size: 14px;color: #4e4f53;">Authenion Dashboard shows the number of Applications configured. </p>
+							            <!-- <img src="assets/img/NewApplication1.png" alt="" class="col-images-intro" />  -->
+                   <!-- Image with onclick event -->
+                   <img src="assets/img/NewApplication1.png" alt="" style="width:60%;height:40%;cursor:pointer" onclick="openModal('modalContainer9', 'modalImage9')" class="col-images-intro" />
+
+                   <!-- Modal container -->
+                     <div id="modalContainer9" class="modal-container" onclick="closeModal('modalContainer9')">
+                      <img id="modalImage9" class="modal-image" src="assets/img/NewApplication1.png" alt="">
+                    </div>
+                      <br>
+
+							<!-- Virtual Servers  -->	
+                            <div>
+								<a style="padding: 35px" name="Virtual Servers"></a>
+							       <p class="col-sub-headings">6. Virtual Servers</p>
+							        <p class="col-para">Virtual Servers enables you to protect multiple applications and their hosts. The Virtual Server is a combination of
+										hostname and port number and is defined by example.com:443.</p>
+										<!-- <img src="assets/img/Virtualserver.png" alt="" class="col-images-intro" /> <br> -->
+										<!-- Image with onclick event -->
+                         <img src="assets/img/Virtualserver.png" alt="" style="width:60%;height:40%;cursor:pointer" onclick="openModal('modalContainer10', 'modalImage10')" class="col-images-intro" />
+
+                           <!-- Modal container -->
+                        <div id="modalContainer10" class="modal-container" onclick="closeModal('modalContainer10')">
+                        <img id="modalImage10" class="modal-image" src="assets/img/Virtualserver.png" alt="">
+                          </div>
+                             <br>
+										<h6 class="col-sub-headings">
+											Adding a Virtual Server
+
+										</h6>
+									<ol class="col-para">
+										<li><p class="col-para">Click Virtual Servers in the sidebar menu.</p></li>
+										<li><p class="col-para">Click the <b>“+ New Virtual Server”</b> button in the Virtual Servers page. </p></li>
+										<li><p class="col-para">Enter the following details to create a Virtual Server for your application.  </p></li>
+										<p class="col-para"><b>For example:</b></p>
+									</p>
+									<!-- table ### -->
+									<table class="systemrequiremetable" cellpadding = "5" cellspacing = "5" style="background-color:#f5f5f6">
+										<tr>
+											<th class="symcomponent">Configurations</th>
+											<th class="symcomponent">&emsp;Values</th>
+										</tr>
+				 
+										<tbody class="tbody">
+										 <!-- ID-->  
+										 <tr>
+											<td>
+												<p class="col-para-table">ID </p>
+										   </td>
+											  <td>
+												<ul>
+												  <li class="li"><p class="col-para-table">1 (Unique ID) </li>
+												 </ul>
+											   </td>
+											 </tr>
+									   <!--Name-->  
+											  <tr>
+												  <td>
+													  <p class="col-para-table">Name</p>
+												 </td>
+													<td>
+													  <ul>
+														<li class="li"><p class="col-para-table">MyAppVirtualServer</li>
+													   </ul>
+													 </td>
+												   </tr>
+										 <!--Host -->  
+													 <tr>
+														 <td>
+															 <p class="col-para-table">Host </p>
+														  </td>
+														  <td>
+														   <ul>
+															 <li class="li"><p class="col-para-table">authenion.example.com&emsp;&emsp;(protected application domain or hostname)</li>
+														   </ul>
+														 </td>
+													 </tr>
+										  <!--Port  -->  
+										             <tr>
+											           <td>
+														   <p class="col-para-table">Port </p>
+											            </td>
+											            <td>
+											               <ul>
+												              <li class="li"><p class="col-para-table">443</li>
+											             </ul>
+											          </td>
+										              </tr>
+										<!--Use SSL-->  
+										             <tr>
+											            <td>
+															<p class="col-para-table">Use SSL </p>
+											             </td>
+											                 <td>
+											                <ul>
+												             <li class="li"><p class="col-para-table">checkbox&emsp;&emsp;&emsp;(HTTP or HTTPS)</li>
+											                 </ul>
+											              </td>
+										                 </tr>	
+									</tbody> 
+								 </table>
+									<br />
+									
+									<li><p class="col-para">Click <b>Save</b> to complete the Virtual Server configuration. </p></li>
+									
+								</div>
+								<!-- <img src="assets/img/Virtualserver1.png" alt="" class="col-images-intro" /> -->
+								<!-- Image with onclick event -->
+                         <img src="assets/img/Virtualserver1.png" alt="" style="width:60%;height:40%;cursor:pointer" onclick="openModal('modalContainer11', 'modalImage11')" class="col-images-intro" />
+
+                   <!-- Modal container -->
+                        <div id="modalContainer11" class="modal-container" onclick="closeModal('modalContainer11')">
+                       <img id="modalImage11" class="modal-image" src="assets/img/Virtualserver1.png" alt="">
+                      </div>
+								 <br>
+
+								<!-- Application Hosts -->	
+								<div>
+									<a style="padding: 35px" name="Application Hosts"></a>
+									   <p class="col-sub-headings">7. Application Hosts </p>
+										<p class="col-para">Applications Hosts are the target applications or the backend application servers that Authenion is protecting through a
+											gateway architecture. These target application’s access requests are validated by Authenion before they are forwarded. </p>
+											<!-- <img src="assets/img/BackendServer.png" alt="" class="col-images-intro" /> <br> -->
+											<!-- Image with onclick event -->
+                              <img src="assets/img/BackendServer.png" alt="" style="width:60%;height:40%;cursor:pointer" onclick="openModal('modalContainer12', 'modalImage12')" class="col-images-intro" />
+
+                          <!-- Modal container -->
+                       <div id="modalContainer12" class="modal-container" onclick="closeModal('modalContainer12')">
+                          <img id="modalImage12" class="modal-image" src="assets/img/BackendServer.png" alt="">
+                           </div>
+											<br>
+											<h6 class="col-sub-headings">
+												Adding Application Hosts
+                                             </h6>
+										<ol class="col-para">
+											<li><p class="col-para">Click Application Hosts in the sidebar menu. </p></li>
+											<li><p class="col-para">Click the <b>“+New Application Host”</b> button in the Application Hosts page. </p></li>
+											<li><p class="col-para">Enter the following details to create an Application Host for your target application server.  </p></li>
+											<p class="col-para"><b>For example:</b></p>
+										</p>
+										<!-- table ### -->
+										<table class="systemrequiremetable" cellpadding = "5" cellspacing = "5" style="background-color:#f5f5f6">
+											<tr>
+											   <th class="symcomponent" >Configurations</th>
+											   <th class="symcomponent">&emsp;Values</th>
+											</tr>
+					 
+											<tbody class="tbody">
+											 <!-- ID-->  
+											 <tr>
+												<td>
+													<p class="col-para-table">ID </p>
+											   </td>
+												  <td>
+													<ul>
+													  <li class="li"><p class="col-para-table">1 (Unique ID) </li>
+													 </ul>
+												   </td>
+												 </tr>
+										   <!--Name-->  
+												  <tr>
+													  <td>
+														  <p class="col-para-table">Name</p>
+													 </td>
+														<td>
+														  <ul>
+															<li class="li"><p class="col-para-table">MyAppBackend </li>
+														   </ul>
+														 </td>
+													   </tr>
+											 <!--Host -->  
+														 <tr>
+															 <td>
+																 <p class="col-para-table">Host </p>
+															  </td>
+															  <td>
+															   <ul>
+																 <li class="li"><p class="col-para-table">MyApp.example.com:8443 &emsp;&emsp;(protected application/webserver details)</li>
+															   </ul>
+															 </td>
+														 </tr>
+											<!--Use SSL-->  
+														 <tr>
+															<td>
+																<p class="col-para-table">Use SSL </p>
+															 </td>
+																 <td>
+																<ul>
+																 <li class="li"><p class="col-para-table">checkbox&emsp;&emsp;&emsp;(HTTP or HTTPS)</li>
+																 </ul>
+															  </td>
+															 </tr>	
+										</tbody> 
+									 </table>
+										<br />
+										<li><p class="col-para">Click <b>Save</b> to complete the Application Host configuration.
+										</p></li>
+										
+									</div>
+									<!-- <img src="assets/img/Backendserver1.png" alt="" class="col-images-intro" /> <br> -->
+									<!-- Image with onclick event -->
+                         <img src="assets/img/Backendserver1.png" alt="" style="width:60%;height:40%;cursor:pointer" onclick="openModal('modalContainer13', 'modalImage13')" class="col-images-intro" />
+
+                               <!-- Modal container -->
+                     <div id="modalContainer13" class="modal-container" onclick="closeModal('modalContainer13')">
+                        <img id="modalImage13" class="modal-image" src="assets/img/Backendserver1.png" alt="">
+                </div>
+                       <br>							
+									<!-- Header Mappings  -->	
+								<div>
+									<a style="padding: 35px" name="Header Mapping"></a>
+									   <p class="col-sub-headings">8. Header Mappings </p>
+										<p class="col-para">Header Mappings sends the User attributes to the target application post authentication. The target application will use
+											them for validation purposes. The Header Mappings will receive the user attributes from the Claims which are sent by the
+											Token Provider. Once the claims received, it is then made available as HTTP-Headers to the target applications. </p>
+											<!-- <img src="assets/img/HeaderMappings.png" alt="" class="col-images-intro" /> <br> -->
+											<!-- Image with onclick event -->
+                        <img src="assets/img/HeaderMappings.png" alt="" style="width:60%;height:40%;cursor:pointer" onclick="openModal('modalContainer14', 'modalImage14')" class="col-images-intro" />
+
+                      <!-- Modal container -->
+                  <div id="modalContainer14" class="modal-container" onclick="closeModal('modalContainer14')">
+                    <img id="modalImage14" class="modal-image" src="assets/img/HeaderMappings.png" alt="">
+                 </div>
+                     <br>
+											<h6 class="col-sub-headings">
+												Adding Header Mapping 
+                                             </h6>
+										<ol class="col-para">
+											<li><p class="col-para">Click Header Mappings in the sidebar menu.  </p></li>
+											<li><p class="col-para">Click the <b>“+New Header Mapping”</b> button in the Header Mappings page.  </p></li>
+											<li><p class="col-para">Enter the following details to create a header mapping for your target application.   </p></li>
+											<p class="col-para"><b>For example:</b></p>
+										</p>
+										<!-- table ### -->
+										<table class="systemrequiremetable" cellpadding = "5" cellspacing = "5" style="background-color:#f5f5f6">
+											<tr>
+												<th class="symcomponent">Configurations&emsp;&emsp;</th>
+												<th class="symcomponent">&emsp;Values&nbsp;&emsp;&emsp;&emsp;&emsp;</th>
+											</tr>
+					 
+											<tbody class="tbody">
+											 <!-- ID-->  
+											 <tr>
+												<td>
+													<p class="col-para-table">ID </p>
+											   </td>
+												  <td>
+													<ul>
+													  <li class="li"><p class="col-para-table">1 (Unique ID) </li>
+													 </ul>
+												   </td>
+												 </tr>
+										   <!--Name-->  
+												  <tr>
+													  <td>
+														  <p class="col-para-table">Name</p>
+													 </td>
+														<td>
+														  <ul>
+															<li class="li"><p class="col-para-table">MyAppHeaders</li>
+														   </ul>
+														 </td>
+													   </tr>
+											 <!--App Header -->  
+														 <tr>
+															 <td>
+																 <p class="col-para-table"><b>App Header </b></p>
+															  </td>
+															  <td>
+															   <ul>
+																   <p class="col-para-table"><b>OIDC Claims </b></p>
+															   </ul>
+															 </td>
+														 </tr>
+											<!--USER_NAME-->  
+														 <tr>
+															<td>
+																<p class="col-para-table">USER_NAME</p>
+															 </td>
+																 <td>
+																<ul>
+																 <li class="li"><p class="col-para-table">username</li>
+																 </ul>
+															  </td>
+															 </tr>	
+															 <!--USER_MAIL -->  
+														 <tr>
+															<td>
+																<p class="col-para-table">USER_MAIL </p>
+															 </td>
+																 <td>
+																<ul>
+																 <li class="li"><p class="col-para-table">email</li>
+																 </ul>
+															  </td>
+															 </tr>	
+										</tbody> 
+									 </table>
+										<br />
+										<li><p class="col-para">Click <b>Save</b> to complete the Header Mappings  configuration. 
+										</p></li>
+										
+									</div>
+									<!-- <img src="assets/img/Headermappings1.png" alt="" class="col-images-intro" /> <br> -->
+									<!-- Image with onclick event -->
+<img src="assets/img/Headermappings1.png" alt="" style="width:60%;height:40%;cursor:pointer" onclick="openModal('modalContainer15', 'modalImage15')" class="col-images-intro" />
+
+<!-- Modal container -->
+<div id="modalContainer15" class="modal-container" onclick="closeModal('modalContainer15')">
+    <img id="modalImage15" class="modal-image" src="assets/img/Headermappings1.png" alt="">
+</div>
+<br>
+
+								<!-- Resources  -->	
+								<div>
+									<a style="padding: 35px" name="Resources"></a>
+									   <p class="col-sub-headings">9. Resources </p>
+										<p class="col-para">Resources are the components/URI of the applications. The resources can be mapped as either protected or excluded
+											resources in an application. Each application should have at least one protected & excluded resources configured to it. </p>
+											<!-- <img src="assets/img/Resources.png" alt="" class="col-images-intro" /> <br> -->
+<!-- Image with onclick event -->
+<img src="assets/img/Resources.png" alt="" style="width:60%;height:40%;cursor:pointer" onclick="openModal('modalContainer16', 'modalImage16')" class="col-images-intro" />
+
+<!-- Modal container -->
+<div id="modalContainer16" class="modal-container" onclick="closeModal('modalContainer16')">
+    <img id="modalImage16" class="modal-image" src="assets/img/Resources.png" alt="">
+</div>
+<br>
+											<h6 class="col-sub-headings">
+												Adding Resources
+                                             </h6>
+										<ol class="col-para">
+											<li><p class="col-para">Click Resources in the sidebar menu.   </p></li>
+											<li><p class="col-para">Click the <b>“+New Resource”</b> button in the Resources page.  </p></li>
+											<li><p class="col-para">Enter the following details to create a Resources for your target application.    </p></li>
+											<p class="col-para"><b>For example:</b></p>
+										</p>
+										<!-- table ### -->
+										<table class="systemrequiremetable" cellpadding = "5" cellspacing = "5" style="background-color:#f5f5f6">
+											<tr>
+												<th class="symcomponent">Configurations</th>
+												<th class="symcomponent">&emsp;Values</th>
+											</tr>
+					 
+											<tbody class="tbody">
+											 <!-- ID-->  
+											 <tr>
+												<td>
+													<p class="col-para-table">ID </p>
+											   </td>
+												  <td>
+													<ul>
+													  <li class="li"><p class="col-para-table">1 (Unique ID) </li>
+													 </ul>
+												   </td>
+												 </tr>
+										   <!--Name-->  
+												  <tr>
+													  <td>
+														  <p class="col-para-table">Name</p>
+													 </td>
+														<td>
+														  <ul>
+															<li class="li"><p class="col-para-table">MyAppResources</li>
+														   </ul>
+														 </td>
+													   </tr>
+											 <!--Resource Path -->  
+														 <tr>
+															 <td>
+																 <p class="col-para-table">Resource Path</p>
+															  </td>
+															  <td>
+															   <ul>
+																 <li class="li"><p class="col-para-table">/MyApp&emsp;(Resource Path starts with a ‘/’. Multiple resource paths can be added)</Resource> </li>
+															   </ul>
+															 </td>
+														 </tr>
+											</tbody> 
+									 </table>
+										<br />
+										<li><p class="col-para">Click <b>Save</b> to complete the Resources configuration. 
+										</p></li>
+										
+									</div>
+									<!-- <img src="assets/img/Resources1.png" alt="" class="col-images-intro" /> <br> -->
+<!-- Image with onclick event -->
+<img src="assets/img/Resources1.png" alt="" style="width:60%;height:40%;cursor:pointer" onclick="openModal('modalContainer17', 'modalImage17')" class="col-images-intro" />
+
+<!-- Modal container -->
+<div id="modalContainer17" class="modal-container" onclick="closeModal('modalContainer17')">
+    <img id="modalImage17" class="modal-image" src="assets/img/Resources1.png" alt="">
+</div>
+<br>
+							<!--Authenion Status -->	
+								<div>
+									<a style="padding: 35px" name="Authenion Status"></a>
+									   <p class="col-sub-headings">10. Authenion Status </p>
+										<p class="col-para">The Authenion Status page shows the health of the Authenion Instance that is running in the Authenion server. This
+status page also displays your authenion license information. </p>
+											<ol class="col-para">
+												<li><p class="col-para">Click Authenion Status in the sidebar menu to view the status of your Authenion application.  </p></li>	
+												
+											</div>
+											<!-- <img src="assets/img/authenionstatus.png" alt="" class="col-images-intro" /> <br> -->
+											<!-- Image with onclick event -->
+<img src="assets/img/authenionstatus.png" alt="" style="width:60%;height:40%;cursor:pointer" onclick="openModal('modalContainer18', 'modalImage18')" class="col-images-intro" />
+
+<!-- Modal container -->
+<div id="modalContainer18" class="modal-container" onclick="closeModal('modalContainer18')">
+    <img id="modalImage18" class="modal-image" src="assets/img/authenionstatus.png" alt="">
+</div>
+
+<br>
+							<!--Export -->	
+								<div>
+									<a style="padding: 35px" name="Export"></a>
+									   <p class="col-sub-headings">11. Export </p>
+										<p class="col-para">The Export button is a quick operation that lets you download the current configurations from the UI. The exported data
+											will be in the format of a JSON file. This file acts as a backup for the Authenion configuration data. The downloaded file
+											name is export.json. </p>
+										</div>
+											
+
+							<!--Sync  -->	
+								<div>
+									<a style="padding: 35px" name="Sync"></a>
+									   <p class="col-sub-headings">12. Sync</p>
+										<p class="col-para">The Sync is a manual operation lets you push all the configuration data from Authenion UI back to the Authenion server.
+											When you install Authenion for the first time, there will be no configuration data in the UI or in the Authenion server. The
+											Sync operation should be triggered for both new configurations & modifications that we perform in the Authenion UI. Any
+											changes which are not pushed from the UI to Authenion server will not be reflected until Sync operation is triggered
+											manually.  </p>
+											
+											<p class="col-para"> Note: Add the JWKS endpoint to the 'agent-authorization.properties' file in the '/config/' directory. </p> </br> 
+
+											<!-- <img  src="assets/img/sync.png" alt="" class="col-images-intro" /> <br> -->
+											<!-- Image with onclick event -->
+<img src="assets/img/sync.png" alt="" style="width:60%;height:40%;cursor:pointer" onclick="openModal('modalContainer19', 'modalImage19')" class="col-images-intro" />
+
+<!-- Modal container -->
+<div id="modalContainer19" class="modal-container" onclick="closeModal('modalContainer19')">
+    <img id="modalImage19" class="modal-image" src="assets/img/sync.png" alt="">
+</div>
+<br>
+									<p class="col-para">
+												The Sync status will throw error status when it couldn’t reach the Authenion instance in Authenion server. 	
+											</p>	
+									    	<!-- <img  src="assets/img/sync1.png" alt="" class="col-images-intro" /> <br> -->
+											<!-- Image with onclick event -->
+<img src="assets/img/sync1.png" alt="" style="width:60%;height:40%;cursor:pointer" onclick="openModal('modalContainer20', 'modalImage20')" class="col-images-intro" />
+
+<!-- Modal container -->
+<div id="modalContainer20" class="modal-container" onclick="closeModal('modalContainer20')">
+    <img id="modalImage20" class="modal-image" src="assets/img/sync1.png" alt="">
+</div>
+											</div>
+                                         
+			<br />
+				
+				<!-- ### CONFIGURE IDENTITY PROVIDER ### -->
+				<div>
+					<a  style="padding: 38px" name="Connect with your Identity Provider"></a>
+					<h4 style="font-family: sans-serif; font-size: 26px; font-weight: 600; color: #00297A">Connect with your Identity Provider</h4>
+					
+					<p class="col-para">This section provides the steps required to configure Authenion with the Identity/Token Providers like PingFederate, PingOne, Microsoft Azure, etc. The integration will be established through OAuth and OpenID Connect protocols.</p>
+
+					<!--PingFederate as IdP-->
+					<a style="padding: 38px" name="PingFederate as the Token Provider"></a>
+					<p class="col-sub-headings">1. PingFederate as the Token Provider</p>
+					<p class="col-sub-headings-sub"><b>&nbsp;&nbsp;<u>Pre-requisites</u></b></p>
+					<!-- <ul class="col-para"> -->
+						<ul style="margin-left:30px;" class="col-para">
+						<li><p class="col-para" style="background-color:#f5f5f6">PingFederate application with IdP and OAuth/OIDC roles enabled.</p></li>
+						<li><p class="col-para" style="background-color:#f5f5f6">Authorization server setup in PingFederate OAuth server setting.</p></li>
+						<li><p class="col-para" style="background-color:#f5f5f6">A configured ping IdP adapter and/or authentication policy contract policy if required for authentication and grant mapping.</p></li>
+					</ul>
+					<p class="col-sub-headings-sub"><b>&nbsp;&nbsp;<u>OAuth / OIDC Configurations</u></b></p>
+					<p class="col-para">&emsp;This setup will manage the configurations related to the OAuth client.</p>
+					<ol class="col-para">
+						<li><p class="col-para">Create a new Client in PingFederate for Authenion.</p></li>
+
+						<!-- <div class="div-table4">
+							<div class="div-table4-row">
+								<div class="div-table4-col1">Client Name</div>
+								<div class="div-table4-col2">&lt;value to identify Client in PingFederate&gt;</div>
+							</div>
+							<div class="div-table4-row">
+								<div class="div-table4-col1">Client ID</div>
+								<div class="div-table4-col2">&lt;value for client_id&gt;</div>
+							</div>
+							<div class="div-table4-row">
+								<div class="div-table4-col1">Client Secret</div>
+								<div class="div-table4-col2">&lt;value for client_secret&gt;</div>
+							</div>
+							<div class="div-table4-row">
+								<div class="div-table4-col1">Redirect URIs</div>
+								<div class="div-table4-col2">https://&lt;authenion.example.com&gt;:&lt;port&gt;/ssolibrary/oidc/callback</div>
+							</div>
+							<div class="div-table4-row">
+								<div class="div-table4-col1">Bypass Authorization Approval</div>
+								<div class="div-table4-col2">&lt;enable checkbox&gt;</div>
+							</div>
+							<div class="div-table4-row">
+								<div class="div-table4-col1">Allowed Grant types</div>
+								<div class="div-table4-col2">&lt;enable <b>Authorization Code</b>checkbox&gt;</div>
+							</div>
+							<div class="div-table4-row">
+								<div class="div-table4-col1">Default Access token manager</div>
+								<div class="div-table4-col2">&lt;select the accesstoken to map with this client&gt;</div>
+							</div>
+							<div class="div-table4-row">
+								<div class="div-table4-col1">OpenID Connect Policy</div>
+								<div class="div-table4-col2">&lt;select the OpenID Connect policy created earlier&gt;</div>
+							</div>
+						</div> -->
+						<table class="systemrequiremetable" cellpadding = "5" cellspacing = "5" style="background-color:#f5f5f6">
+							<tr>
+								<th class="symcomponent">Configurations</th>
+								<th class="symcomponent">&emsp;Values</th>
+							</tr>
+	 
+							<tbody class="tbody">
+							 <!--Client Name-->  
+							 <tr>
+								<td>
+									<p class="col-para-table">Client Name</p>
+							   </td>
+								  <td>
+									<ul>
+									  <li class="li"><p class="col-para-table">value to identify Client in PingFederate</li>
+									 </ul>
+								   </td>
+								 </tr>
+						   <!--Client ID-->  
+								  <tr>
+									  <td>
+										  <p class="col-para-table">Client ID</p>
+									 </td>
+										<td>
+										  <ul>
+											<li class="li"><p class="col-para-table">value for client_id</li>
+										   </ul>
+										 </td>
+									   </tr>
+							 <!--Client Secret-->  
+										 <tr>
+											 <td>
+												 <p class="col-para-table">Client Secret</p>
+											  </td>
+											  <td>
+											   <ul>
+												 <li class="li"><p class="col-para-table">value for client_secret</li>
+											   </ul>
+											 </td>
+										 </tr>
+							  <!--Redirect URIs-->  
+								<tr>
+									<td>
+										<p class="col-para-table">Redirect URIs</p>
+									</td>
+									<td>
+									  <ul>
+										<li class="li"><p class="col-para-table">https://&lt;authenion.example.com&gt;:&lt;port&gt;/ssolibrary/oidc/callback&emsp;</li>
+										</ul>
+									</td>
+								  </tr>
+							 <!--Bypass Authorization Approval-->  
+								<tr>
+									 <td>
+										 <p class="col-para-table">Bypass Authorization Approval</p>
+									  </td>
+									   <td>
+										 <ul>
+										  <li class="li"><p class="col-para-table">enable checkbox</li>
+										  </ul>
+									 </td>
+								   </tr>
+							  <!--Allowed Grant types-->  
+								<tr>
+									<td>
+										<p class="col-para-table">Allowed Grant types</p>
+									 </td>
+									  <td>
+										<ul>
+										 <li class="li"><p class="col-para-table">enable Authorization Code checkbox</li>
+										 </ul>
+									</td>
+								  </tr>
+								  <!--Default Access token manager-->  
+								<tr>
+									<td>
+										<p class="col-para-table">Default Access token manager</p>
+									 </td>
+									  <td>
+										<ul>
+										 <li class="li"><p class="col-para-table">select the accesstoken to map with this client</li>
+										 </ul>
+									</td>
+								  </tr>
+								  <!--OpenID Connect Policy-->  
+								<tr>
+									<td>
+										<p class="col-para-table">OpenID Connect Policy</p>
+									 </td>
+									  <td>
+										<ul>
+										 <li class="li"><p class="col-para-table">select the OpenID Connect policy created earlier</li>
+										 </ul>
+									</td>
+								  </tr>
+							</tbody> 
+						  </table>
+						<br />
+
+						<li><p class="col-para">Review the Client configurations and click <b>Save</b>.</p></li>
+						<li><p class="col-para">Map an OpenID Connect Policy to this Client with the following information:</p></li>
+						<p class="col-para"><b>For example:</b></p>
+						<p class="col-para">In OpenID Connect Policy Management tab, create/modify the policy and add the attributes that need to be sent through id_token and userinfo endpoint.</p>
+						<p class="col-para">Add the following attributes that need to be returned in the id_token and/or as claims through userinfo endpoint.</p>
+						<!-- <ul class="col-para"> -->
+							<ul style="margin-left:30px;" class="col-para">
+							<li>username</li>
+							<li>email</li>
+						</ul>
+						
+						<p class="col-para">The above attributes can be mapped with their respective Scopes in the next page. For example, <b>openid scope</b>.</p>
+						
+
+						<li><p class="col-para">Replicate the configurations if PingFederate is configured in a cluster.</p></li>
+					</ol>
+
+					<!-- <img src="assets/img/pf-client1.png" alt="" class="col-images-pf"><br /> -->
+					<!-- Image with onclick event -->
+               <img src="assets/img/pf-client1.png" alt=""  onclick="openModal('modalContainer22', 'modalImage22')" class="col-images-pf" />
+
+             <!-- Modal container -->
+                    <div id="modalContainer22" class="modal-container" onclick="closeModal('modalContainer22')">
+                     <img id="modalImage22" class="modal-image" src="assets/img/pf-client1.png" alt="">
+                </div>
+				<br/>
+				<!-- Image with onclick event -->
+<img src="assets/img/pf-client2.png" alt=""  onclick="openModal('modalContainer23', 'modalImage23')" class="col-images-pf" />
+
+<!-- Modal container -->
+<div id="modalContainer23" class="modal-container" onclick="closeModal('modalContainer23')">
+    <img id="modalImage23" class="modal-image" src="assets/img/pf-client2.png" alt="">
+</div>
+					<!-- <img src="assets/img/pf-client2.png" alt="" class="col-images-pf"> -->
+					<br />
+					
+
+					<!--Azure as idP-->
+					<a style="padding: 38px" name="Microsoft Azure Active Directory as the Token Provider"></a>
+					<p class="col-sub-headings">2. Microsoft Azure Active Directory as the Token Provider</p>
+					<p class="col-sub-headings-sub"><b>&nbsp;&nbsp;<u>Pre-requisites</u></b></p>
+					<!-- <ul class="col-para"> -->
+						<ul style="margin-left:30px;" class="col-para">
+						<li><p class="col-para" style="background-color:#f5f5f6">Azure account with valid subscription.</p></li>
+						<li><p class="col-para" style="background-color:#f5f5f6">App registration.</p></li>
+						<li><p class="col-para" style="background-color:#f5f5f6">Client Secrets and Claim mappings.</p></li>
+					</ul>
+					<p class="col-sub-headings-sub"><b>&nbsp;&nbsp;<u>Azure Configurations</u></b></p>
+					<p class="col-para">The following will register Authenion as an OAuth/OIDC client application in Microsoft Azure & establishes a unidirectional trust relationship between Authenion and Microsoft identity platform.</p>
+					<ol class="col-para">
+						<li><p class="col-para">In the Azure Portal, switch to the tenant in which you want to register the Authenion application.</p></li>
+						<li><p class="col-para">In the App registrations section, select New registration and register Authenion as web application with display name and any other required details.</p></li>
+						<li><p class="col-para">Add the following Authenion URI in the Redirect URI field. This is the location where Microsoft Azure redirects the user’s request post authentication.</p></li>
+						<p class="col-para"><b>Redirect URI:</b>&emsp;https://&lt;authenion.example.com&gt;/ssolibrary/oidc/callback</p>
+						<!-- <img src="assets/img/azure-1.png" alt="" class="col-images-pf"> -->
+						<!-- Image with onclick event -->
+<img src="assets/img/azure-1.png" alt=""  onclick="openModal('modalContainer21', 'modalImage21')" class="col-images-pf" />
+
+<!-- Modal container -->
+<div id="modalContainer21" class="modal-container" onclick="closeModal('modalContainer21')">
+    <img id="modalImage21" class="modal-image" src="assets/img/azure-1.png" alt="">
+</div>
+						<br />
+
+						<li><p class="col-para">When the registration finishes, the Azure portal displays the Authenion application registration’s overview pane. You can find the Application ID which will also be used as the client_id when we connect Authenion & Azure through OAuth/OIDC.</p></li>
+						<li><p class="col-para">You need to Credential in ‘Certificates & Secrets’ page. This acts as the client credential for the Authenion application, and it allows Authenion to authenticate as itself to Microsoft Azure.</p></li>
+						<!-- <img src="assets/img/azure-2.png" alt="" class="col-images-pf"><br/> -->
+						<!-- Image with onclick event -->
+<img src="assets/img/azure-2.png" alt=""  onclick="openModal('modalContainer24', 'modalImage24')" class="col-images-pf" />
+
+<!-- Modal container -->
+<div id="modalContainer24" class="modal-container" onclick="closeModal('modalContainer24')">
+    <img id="modalImage24" class="modal-image" src="assets/img/azure-2.png" alt="">
+</div>
+
+						<br />
+
+						<li><p class="col-para">The Authenion client application need to access resources in a web API. You can use the Microsoft Azure platform for authorizing scopes, permissions-based access to fetch the appropriate user data.</p></li>
+						<li><p class="col-para">The user data can be added as claims using the OIDC userinfo endpoint. Any attributes that are required by the target application can be added as claims in the userinfo endpoint.</p></li>
+					</ol><br />
+
+
+</div>
+<!--Configure identity provider-->
+
+
+
+				</div> <!-- end #div  418-->
+			</div> <!-- end #div 417-->
+			
+
+</section><!-- End #section -->
+</main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Like Minds Consulting Inc</span></strong>. All Rights Reserved
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+	<i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
